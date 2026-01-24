@@ -6,7 +6,7 @@
 /*   By: dasimoes <dasimoes@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/12 12:13:17 by dasimoes          #+#    #+#             */
-/*   Updated: 2026/01/14 18:28:49 by dasimoes         ###   ########.fr       */
+/*   Updated: 2026/01/22 16:53:39 by dasimoes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class	Fixed
 		Fixed();
 		~Fixed();
 		Fixed( const Fixed& other );
-		Fixed& operator=(const Fixed& other);
+		Fixed& operator=( const Fixed& other );
 		int		getRawBits( void ) const;
 		void	setRawBits( int const raw );
 };	
