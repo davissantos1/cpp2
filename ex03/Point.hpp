@@ -6,7 +6,7 @@
 /*   By: dasimoes <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/15 23:06:05 by dasimoes          #+#    #+#             */
-/*   Updated: 2026/01/15 23:31:13 by dasimoes         ###   ########.fr       */
+/*   Updated: 2026/01/23 19:19:26 by dasimoes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class	Point
 		Point(const float x, const float y);
 		Point( const Point& other );
 		~Point();
-		Point&	operator=( Point& other );
+		Point&	operator=( const Point& other );
 };
 
 #endif
